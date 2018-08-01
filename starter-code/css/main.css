@@ -2,6 +2,7 @@
     font-family: Lato;
     width: 100vw;
     margin-left: 20px;
+    max-width: 95%;
     
 }
 
@@ -73,6 +74,7 @@ header h2{
 
 p{
     line-height: 1.7em;
+    width: auto;
 }
 
 article p::first-letter{
@@ -87,14 +89,13 @@ article p::first-letter{
     margin-bottom: 20px;
 }
 
-
 img{
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 
 article{
     border-bottom: 1px solid lightgrey;
+    max-width: 80%;
 }
 
 h4 {
